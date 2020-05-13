@@ -1,0 +1,122 @@
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.csprojAssemblyReference.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.csproj.CoreCompileInputs.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.AssemblyInfoInputs.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.AssemblyInfo.cs
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/appsettings.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MoviesAPI.deps.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MoviesAPI.runtimeconfig.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MoviesAPI.runtimeconfig.dev.json
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MoviesAPI.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MoviesAPI.pdb
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/DnsClient.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/MongoDB.Libmongocrypt.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/bin/Debug/netcoreapp3.1/SharpCompress.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.RazorTargetAssemblyInfo.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.csproj.CopyComplete
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/staticwebassets/MoviesAPI.StaticWebAssets.Manifest.cache
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/staticwebassets/MoviesAPI.StaticWebAssets.xml
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.dll
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.pdb
+/Users/noraeleish/Documents/Work/Backend Dot Net Core/WebApplication/MoviesAPI/obj/Debug/netcoreapp3.1/MoviesAPI.genruntimeconfig.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.exe
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.deps.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.runtimeconfig.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.runtimeconfig.dev.json
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.pdb
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csprojAssemblyReference.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csproj.CoreCompileInputs.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.AssemblyInfoInputs.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.AssemblyInfo.cs
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.RazorTargetAssemblyInfo.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csproj.CopyComplete
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\staticwebassets\MoviesAPI.StaticWebAssets.Manifest.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\staticwebassets\MoviesAPI.StaticWebAssets.xml
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.pdb
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.genruntimeconfig.cache
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Work\benchmark\CSharp\Rider projects\nora's\WebApplication\MoviesAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.exe
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.deps.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.runtimeconfig.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.runtimeconfig.dev.json
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MoviesAPI.pdb
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csprojAssemblyReference.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csproj.CoreCompileInputs.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.AssemblyInfoInputs.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.AssemblyInfo.cs
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.RazorTargetAssemblyInfo.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.csproj.CopyComplete
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\staticwebassets\MoviesAPI.StaticWebAssets.Manifest.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\staticwebassets\MoviesAPI.StaticWebAssets.xml
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.pdb
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\obj\Debug\netcoreapp3.1\MoviesAPI.genruntimeconfig.cache
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\EntityFrameworkCore.Extensions.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

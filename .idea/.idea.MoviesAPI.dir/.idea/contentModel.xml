@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Sayed\AppData\Local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Sayed\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Sayed\AppData\Roaming\JetBrains\Rider2020.1\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\Sayed\AppData\Roaming\JetBrains\Rider2020.1\extensions" t="IncludeRecursive" />
+    <e p="D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Context" t="Include">
+        <e p="StoreDbContext.cs" t="Include" />
+      </e>
+      <e p="Controllers" t="Include">
+        <e p="CartController.cs" t="Include" />
+        <e p="ProductsController.cs" t="Include" />
+      </e>
+      <e p="Entities" t="Include">
+        <e p="Cart.cs" t="Include" />
+        <e p="CartStatus.cs" t="Include" />
+        <e p="Product.cs" t="Include" />
+      </e>
+      <e p="Models" t="Include">
+        <e p="CartDto.cs" t="Include" />
+        <e p="ProductDto.cs" t="Include" />
+      </e>
+      <e p="MoviesAPI.csproj" t="IncludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="MoviesAPI.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Profiles" t="Include">
+        <e p="CartProfile.cs" t="Include" />
+        <e p="ProductProfile.cs" t="Include" />
+      </e>
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Repositories" t="Include">
+        <e p="CartsRepo.cs" t="Include" />
+        <e p="IProductsRepo.cs" t="Include" />
+        <e p="ProductsRepo.cs" t="Include" />
+      </e>
+      <e p="Services" t="Include">
+        <e p="CartService.cs" t="Include" />
+        <e p="ProductsService.cs" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="StoreDatabaseSettings.cs" t="Include" />
+    </e>
+  </component>
+</project>
