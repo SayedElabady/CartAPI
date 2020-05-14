@@ -26,7 +26,7 @@ namespace WebApplication.Services
 
         public Task<Cart> GetCartById(string id) => _repo.GetById(id);
 
-        public async Task<Cart> CreateActress(Cart cart) => await _repo.Create(cart);
+        public async Task<Cart> CreateCart(Cart cart) => await _repo.Create(cart);
 
         public async Task UpdateCart(string id, Cart cart) => await _repo.Update(id, cart);
 

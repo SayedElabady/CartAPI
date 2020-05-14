@@ -12,10 +12,10 @@ namespace WebApplication.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
-        public List<string> ProductIds { get; set; }
+        public List<string> ProductIds { get; set; } = new List<string>();
 
-        public int TotalPrice { get; set; }
+        public double TotalPrice { get; set; } = 0.0;
 
-        public CartStatus Status { get; set; }
+        public CartStatus Status { get; set; } = CartStatus.Ready;
     }
 }

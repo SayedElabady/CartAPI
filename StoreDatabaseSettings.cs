@@ -1,15 +1,15 @@
 namespace WebApplication.Models
 {
-    public class MoviestoreDatabaseSettings: IMoviestoreDatabaseSettings
+    public class CartStoreDatabaseSettings: ICartStoreDatabaseSettings
     {
-        public string MoviesCollectionName { get; set; }
+        public string CartsCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
     
-    public interface IMoviestoreDatabaseSettings
+    public interface ICartStoreDatabaseSettings
     {
-        string MoviesCollectionName { get; set; }
+        string CartsCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
     }

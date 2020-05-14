@@ -25,7 +25,7 @@ namespace WebApplication.Services
 
         public async Task UpdateProduct(string id, Product product) => await _repo.Update(id, product);
 
-        public void RemoveProduct(Product product) => _repo.Remove(product);
+        public async Task RemoveProduct(Product product) => await _repo.Remove(product);
 
         public Task RemoveProductById(string id) => _repo.Remove(id);
     }

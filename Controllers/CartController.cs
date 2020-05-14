@@ -28,6 +28,8 @@ namespace WebApplication.Controllers
         {
             var cart = await _cartService.GetCart();
 
+            if (cart == null)
+                return Ok();
             var products = new List<ProductDto>();
             foreach (var productId in cart.ProductIds)
             {
@@ -38,7 +40,10 @@ namespace WebApplication.Controllers
                 }
             }
 
-            return Ok(_mapper.Map<CartDto>(cart));
+            var mappedCart = _mapper.Map<CartDto>(cart);
+            mappedCart.Products = products;
+
+            return Ok(mappedCart);
         }
 
         [HttpGet("{cartId}")]
@@ -53,19 +58,21 @@ namespace WebApplication.Controllers
         [HttpPost]
         public async Task Post(Cart cart)
         {
-            await _cartService.CreateActress(cart);
+            await _cartService.CreateCart(cart);
         }
 
-        [HttpPut]
-        public async Task AddToCart(string productId)
+        [HttpPut("product/{productId}")]
+        public async Task<IActionResult> AddToCart(string productId)
         {
-            var cart = await _cartService.GetCart();
-            if (_cartService.GetCart() != null)
-            {
-                
-            }
+            var cart = await _cartService.GetCart() ?? await _cartService.CreateCart(new Cart());
+
+            var product = await _productsService.GetProductById(productId);
+            cart.ProductIds.Add(productId);
+            cart.TotalPrice += product.Price;
+            await _cartService.UpdateCart(cart.Id, cart);
+            return Ok();
         }
-        
+
         [HttpPut]
         public async Task Update(Cart cart)
         {

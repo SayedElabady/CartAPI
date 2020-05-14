@@ -40,8 +40,8 @@ namespace WebApplication
                 opts.ProductsCollectionName = mongoOptions[nameof(ProductStoreDatabaseSettings.ProductsCollectionName)];
                 opts.DatabaseName = mongoOptions[nameof(ProductStoreDatabaseSettings.DatabaseName)];
             });
-            services.Configure<MoviestoreDatabaseSettings>(
-                Configuration.GetSection(nameof(MoviestoreDatabaseSettings)));
+            services.Configure<CartStoreDatabaseSettings>(
+                Configuration.GetSection(nameof(CartStoreDatabaseSettings)));
             services.Configure<ProductStoreDatabaseSettings>(
                 Configuration.GetSection(nameof(ProductStoreDatabaseSettings)));
 
@@ -49,8 +49,8 @@ namespace WebApplication
             services.AddSingleton<CartsRepo>();
             services.AddSingleton<ProductsRepo>();
 
-            services.AddSingleton<IMoviestoreDatabaseSettings>(sp =>
-                sp.GetRequiredService<IOptions<MoviestoreDatabaseSettings>>().Value);
+            services.AddSingleton<ICartStoreDatabaseSettings>(sp =>
+                sp.GetRequiredService<IOptions<CartStoreDatabaseSettings>>().Value);
             services.AddScoped<IProductStoreDatabaseSettings>(sp =>
                 sp.GetRequiredService<IOptions<ProductStoreDatabaseSettings>>().Value);
 
