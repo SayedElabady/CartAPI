@@ -5,7 +5,7 @@ using WebApplication.Models;
 
 namespace WebApplication.Repositories
 {
-    public interface IProductRepo
+    public interface IProductsRepo
     {
         public void DeleteAll();
         public Task<List<Product>> Get();

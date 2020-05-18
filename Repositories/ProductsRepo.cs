@@ -8,7 +8,7 @@ using WebApplication.Models;
 
 namespace WebApplication.Repositories
 {
-    public class ProductsRepo : IProductRepo
+    public class ProductsRepo : IProductsRepo
     {
         private readonly StoreDbContext _dbContext;
 
@@ -16,8 +16,7 @@ namespace WebApplication.Repositories
         {
             _dbContext = dbContext;
         }
-
-
+        
         public void DeleteAll() =>
             _dbContext.Products.DeleteMany(Actress => true);
 

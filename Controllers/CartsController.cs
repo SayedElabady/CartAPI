@@ -10,23 +10,24 @@ namespace WebApplication.Controllers
 {
     [ApiController]
     [Route("api/cart")]
-    public class CartController : ControllerBase
+    public class CartsController : ControllerBase
     {
-        private CartService _cartService;
-        private ProductsService _productsService;
-        private IMapper _mapper;
+        private readonly ICartsService _cartsService;
+        private readonly IProductsService _productsService;
+        private readonly IMapper _mapper;
 
-        public CartController(CartService cartService, ProductsService productsService, IMapper mapper)
+        public CartsController(ICartsService cartsService, IProductsService productsService, IMapper mapper)
         {
             _mapper = mapper;
-            _cartService = cartService;
+            _cartsService = cartsService;
             _productsService = productsService;
         }
 
+        //needs refactoring 
         [HttpGet()]
         public async Task<ActionResult> Get()
         {
-            var cart = await _cartService.GetCart();
+            var cart = await _cartsService.GetCart();
 
             if (cart == null)
                 return Ok();
@@ -49,7 +50,7 @@ namespace WebApplication.Controllers
         [HttpGet("{cartId}")]
         public async Task<IActionResult> GetCart(string cartId)
         {
-            var cart = await _cartService.GetCartById(cartId);
+            var cart = await _cartsService.GetCartById(cartId);
             if (cart == null)
                 return NotFound();
             return Ok(_mapper.Map<CartDto>(cart));
@@ -58,31 +59,31 @@ namespace WebApplication.Controllers
         [HttpPost]
         public async Task Post(Cart cart)
         {
-            await _cartService.CreateCart(cart);
+            await _cartsService.CreateCart(cart);
         }
 
         [HttpPut("product/{productId}")]
         public async Task<IActionResult> AddToCart(string productId)
         {
-            var cart = await _cartService.GetCart() ?? await _cartService.CreateCart(new Cart());
+            var cart = await _cartsService.GetCart() ?? await _cartsService.CreateCart(new Cart());
 
             var product = await _productsService.GetProductById(productId);
             cart.ProductIds.Add(productId);
             cart.TotalPrice += product.Price;
-            await _cartService.UpdateCart(cart.Id, cart);
+            await _cartsService.UpdateCart(cart.Id, cart);
             return Ok();
         }
 
         [HttpPut]
         public async Task Update(Cart cart)
         {
-            await _cartService.UpdateCart(cart.Id, cart);
+            await _cartsService.UpdateCart(cart.Id, cart);
         }
 
         [HttpDelete]
         public void DeleteAll()
         {
-            _cartService.DeleteAll();
+            _cartsService.DeleteAll();
         }
     }
 }

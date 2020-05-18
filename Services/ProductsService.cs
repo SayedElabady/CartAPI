@@ -6,11 +6,11 @@ using WebApplication.Repositories;
 
 namespace WebApplication.Services
 {
-    public class ProductsService
+    public class ProductsService : IProductsService
     {
-        private readonly ProductsRepo _repo;
+        private readonly IProductsRepo _repo;
 
-        public ProductsService(ProductsRepo repo)
+        public ProductsService(IProductsRepo repo)
         {
             _repo = repo;
         }

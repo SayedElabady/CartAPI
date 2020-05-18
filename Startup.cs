@@ -24,7 +24,6 @@ namespace WebApplication
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
             var mongoOptions = Configuration.GetSection(nameof(ProductStoreDatabaseSettings));
@@ -40,28 +39,18 @@ namespace WebApplication
                 opts.ProductsCollectionName = mongoOptions[nameof(ProductStoreDatabaseSettings.ProductsCollectionName)];
                 opts.DatabaseName = mongoOptions[nameof(ProductStoreDatabaseSettings.DatabaseName)];
             });
-            services.Configure<CartStoreDatabaseSettings>(
-                Configuration.GetSection(nameof(CartStoreDatabaseSettings)));
-            services.Configure<ProductStoreDatabaseSettings>(
-                Configuration.GetSection(nameof(ProductStoreDatabaseSettings)));
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
-            services.AddSingleton<CartsRepo>();
-            services.AddSingleton<ProductsRepo>();
+            services.AddSingleton<ICartsRepo, CartsRepo>();
+            services.AddSingleton<IProductsRepo, ProductsRepo>();
 
-            services.AddSingleton<ICartStoreDatabaseSettings>(sp =>
-                sp.GetRequiredService<IOptions<CartStoreDatabaseSettings>>().Value);
-            services.AddScoped<IProductStoreDatabaseSettings>(sp =>
-                sp.GetRequiredService<IOptions<ProductStoreDatabaseSettings>>().Value);
-
-            services.AddSingleton<CartService>();
-            services.AddSingleton<ProductsService>();
+            services.AddSingleton<ICartsService, CartsService>();
+            services.AddSingleton<IProductsService, ProductsService>();
 
             services.AddControllers(setupAction => { setupAction.ReturnHttpNotAcceptable = true; })
                 .AddXmlDataContractSerializerFormatters();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using MongoDB.Driver;
 using WebApplication.Dtos;
 using WebApplication.Models;
 using WebApplication.Services;
@@ -14,10 +12,10 @@ namespace WebApplication.Controllers
     [Route("api/products")]
     public class ProductsController : ControllerBase
     {
-        private ProductsService _productsService;
-        private IMapper _mapper;
+        private readonly IProductsService _productsService;
+        private readonly IMapper _mapper;
 
-        public ProductsController(ProductsService productsService, IMapper mapper)
+        public ProductsController(IProductsService productsService, IMapper mapper)
         {
             _mapper = mapper;
             _productsService = productsService;
