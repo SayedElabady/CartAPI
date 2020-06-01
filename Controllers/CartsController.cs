@@ -2,7 +2,6 @@
 using System.Threading.Tasks;
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication.Dtos;
 using WebApplication.Models;
 using WebApplication.Services;
 
@@ -27,24 +26,7 @@ namespace WebApplication.Controllers
         [HttpGet()]
         public async Task<ActionResult> Get()
         {
-            var cart = await _cartsService.GetCart();
-
-            if (cart == null)
-                return Ok();
-            var products = new List<ProductDto>();
-            foreach (var productId in cart.ProductIds)
-            {
-                var product = await _productsService.GetProductById(productId);
-                if (product != null)
-                {
-                    products.Add(_mapper.Map<ProductDto>(product));
-                }
-            }
-
-            var mappedCart = _mapper.Map<CartDto>(cart);
-            mappedCart.Products = products;
-
-            return Ok(mappedCart);
+            return Ok(await _cartsService.GetCart());
         }
 
         [HttpGet("{cartId}")]
@@ -65,20 +47,11 @@ namespace WebApplication.Controllers
         [HttpPut("product/{productId}")]
         public async Task<IActionResult> AddToCart(string productId)
         {
-            var cart = await _cartsService.GetCart() ?? await _cartsService.CreateCart(new Cart());
-
-            var product = await _productsService.GetProductById(productId);
-            cart.ProductIds.Add(productId);
-            cart.TotalPrice += product.Price;
-            await _cartsService.UpdateCart(cart.Id, cart);
+      
+            await _cartsService.UpdateCart(productId);
             return Ok();
         }
 
-        [HttpPut]
-        public async Task Update(Cart cart)
-        {
-            await _cartsService.UpdateCart(cart.Id, cart);
-        }
 
         [HttpDelete]
         public void DeleteAll()

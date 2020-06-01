@@ -16,33 +16,41 @@ namespace WebApplication.Repositories
         {
             _dbContext = dbContext;
         }
-        
+
         public void DeleteAll() =>
-            _dbContext.Products.DeleteMany(Actress => true);
+            _dbContext.Products.DeleteMany(product => true);
 
         public async Task<List<Product>> Get() =>
-            await _dbContext.Products.Find(Actress => true).ToListAsync();
+            await _dbContext.Products.Find(product => true).ToListAsync();
 
         public Task<Product> GetById(string id)
         {
-            return string.IsNullOrEmpty(id)
-                ? Task.FromResult<Product>(null)
-                : _dbContext.Products.Find(Actress => Actress.Id == id).FirstOrDefaultAsync();
+            if (string.IsNullOrEmpty(id))
+            {
+                return Task.FromResult<Product>(null);
+            }
+
+            return  _dbContext.Products.Find(product => product.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<Product> Create(Product product)
         {
+            if (product == null)
+            {
+                return await Task.FromResult<Product>(null);
+            }
+
             await _dbContext.Products.InsertOneAsync(product);
             return product;
         }
 
-        public async Task Update(string id, Product ProductIn) =>
-            await _dbContext.Products.ReplaceOneAsync(Movie => Movie.Id == id, ProductIn);
+        public async Task Update(string id, Product productIn) =>
+            await _dbContext.Products.ReplaceOneAsync(product => product.Id == id, productIn);
 
-        public async Task Remove(Product ProductIn) =>
-            await _dbContext.Products.DeleteOneAsync(Actress => Actress.Id == ProductIn.Id);
+        public async Task Remove(Product productIn) =>
+            await _dbContext.Products.DeleteOneAsync(product => product.Id == productIn.Id);
 
         public Task Remove(string id) =>
-            _dbContext.Products.DeleteOneAsync(Actress => Actress.Id == id);
+            _dbContext.Products.DeleteOneAsync(product => product.Id == id);
     }
 }

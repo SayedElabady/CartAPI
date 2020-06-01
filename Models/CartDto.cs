@@ -1,7 +1,7 @@
 ﻿﻿using System.Collections.Generic;
- using WebApplication.Models;
+using WebApplication.Models;
 
- namespace WebApplication.Dtos
+ namespace WebApplication.Models
 {
     public class CartDto
     {

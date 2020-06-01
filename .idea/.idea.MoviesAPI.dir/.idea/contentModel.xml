@@ -9,14 +9,25 @@
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
+      <e p="Contracts" t="Include">
+        <e p="AuthenticationResult.cs" t="Include" />
+        <e p="Requests" t="Include">
+          <e p="RegistrationRequest.cs" t="Include" />
+        </e>
+        <e p="Response" t="Include">
+          <e p="RegistrationResponse.cs" t="Include" />
+        </e>
+      </e>
       <e p="Controllers" t="Include">
         <e p="CartsController.cs" t="Include" />
         <e p="ProductsController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
       </e>
       <e p="Entities" t="Include">
         <e p="Cart.cs" t="Include" />
         <e p="CartStatus.cs" t="Include" />
         <e p="Product.cs" t="Include" />
+        <e p="User.cs" t="Include" />
       </e>
       <e p="Models" t="Include">
         <e p="CartDto.cs" t="Include" />
@@ -29,6 +40,9 @@
             <e p="MoviesAPI.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
+      </e>
+      <e p="Options" t="Include">
+        <e p="JwtSettings.cs" t="Include" />
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="Profiles" t="Include">
@@ -43,14 +57,18 @@
         <e p="CartsRepo.cs" t="Include" />
         <e p="ICartsRepo.cs" t="Include" />
         <e p="IProductsRepo.cs" t="Include" />
+        <e p="IUsersRepo.cs" t="Include" />
         <e p="ProductsRepo.cs" t="Include" />
         <e p="StoreDbContext.cs" t="Include" />
+        <e p="UsersRepo.cs" t="Include" />
       </e>
       <e p="Services" t="Include">
         <e p="CartsService.cs" t="Include" />
         <e p="ICartsService.cs" t="Include" />
         <e p="IProductsService.cs" t="Include" />
+        <e p="IUsersService.cs" t="Include" />
         <e p="ProductsService.cs" t="Include" />
+        <e p="UsersService.cs" t="Include" />
       </e>
       <e p="Startup.cs" t="Include" />
       <e p="StoreDatabaseSettings.cs" t="Include" />

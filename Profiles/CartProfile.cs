@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using WebApplication.Dtos;
 using WebApplication.Models;
 
 namespace WebApplication.Profiles
@@ -9,6 +8,7 @@ namespace WebApplication.Profiles
         public CartProfile()
         {
             CreateMap<Cart, CartDto>();
+            CreateMap<CartDto, Cart>();
         }
     }
 }

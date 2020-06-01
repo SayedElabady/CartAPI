@@ -120,3 +120,11 @@ D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp
 D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Work\benchmark\CSharp\Rider projects\Challenge\MoviesAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll

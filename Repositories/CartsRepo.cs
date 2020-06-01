@@ -15,27 +15,27 @@ namespace WebApplication.Repositories
         }
 
         public void DeleteAll() =>
-            _dbContext.Cart.DeleteMany(Movie => true);
+            _dbContext.Carts.DeleteMany(cart => true);
 
         public Task<Cart> Get() =>
-            _dbContext.Cart.Find(Cart => true).FirstOrDefaultAsync();
+            _dbContext.Carts.Find(cart => true).FirstOrDefaultAsync();
 
         public Task<Cart> GetById(string id) =>
-            _dbContext.Cart.Find<Cart>(Cart => Cart.Id == id).FirstOrDefaultAsync();
+            _dbContext.Carts.Find<Cart>(cart => cart.Id == id).FirstOrDefaultAsync();
 
         public async Task<Cart> Create(Cart cart)
         {
-            await _dbContext.Cart.InsertOneAsync(cart);
+            await _dbContext.Carts.InsertOneAsync(cart);
             return cart;
         }
 
         public async Task Update(string id, Cart cartIn) =>
-            await _dbContext.Cart.ReplaceOneAsync(Movie => Movie.Id == id, cartIn);
+            await _dbContext.Carts.ReplaceOneAsync(cart => cart.Id == id, cartIn);
 
         public void Remove(Cart cartIn) =>
-            _dbContext.Cart.DeleteOne(Movie => Movie.Id == cartIn.Id);
+            _dbContext.Carts.DeleteOne(cart => cart.Id == cartIn.Id);
 
         public void Remove(string id) =>
-            _dbContext.Cart.DeleteOne(Movie => Movie.Id == id);
+            _dbContext.Carts.DeleteOne(cart => cart.Id == id);
     }
 }

@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using WebApplication.Dtos;
 using WebApplication.Models;
 
 namespace WebApplication.Profiles

@@ -5,7 +5,7 @@ namespace WebApplication.Services
 {
     public interface ICartsService
     {
-        public Task<Cart> GetCart();
+        public Task<CartDto> GetCart();
 
         public void DeleteAll();
 
@@ -13,7 +13,7 @@ namespace WebApplication.Services
 
         public Task<Cart> CreateCart(Cart cart);
 
-        public Task UpdateCart(string id, Cart cart);
+        public Task UpdateCart(string productId);
 
         public void RemoveMovie(Cart cart);
 

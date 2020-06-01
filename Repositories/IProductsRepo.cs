@@ -11,8 +11,8 @@ namespace WebApplication.Repositories
         public Task<List<Product>> Get();
         public Task<Product> GetById(string id);
         public Task<Product> Create(Product product);
-        public Task Update(string id, Product ProductIn);
-        public Task Remove(Product ProductIn);
+        public Task Update(string id, Product productIn);
+        public Task Remove(Product productIn);
         public Task Remove(string id);
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace WebApplication.Dtos
+﻿namespace WebApplication.Models
 {
     public class ProductDto
     {
