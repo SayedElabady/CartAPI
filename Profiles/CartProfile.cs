@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using System.Linq;
+using AutoMapper;
 using WebApplication.Models;
 
 namespace WebApplication.Profiles
@@ -8,7 +9,10 @@ namespace WebApplication.Profiles
         public CartProfile()
         {
             CreateMap<Cart, CartDto>();
-            CreateMap<CartDto, Cart>();
+            CreateMap<CartDto, Cart>().ForMember(
+                dest => dest.ProductIds,
+                opt =>
+                    opt.MapFrom(src => src.Products.Select(cart => cart.Id)));
         }
     }
 }

@@ -11,6 +11,7 @@ namespace WebApplication.Services
         private readonly ICartsRepo _repo;
         private readonly IProductsRepo _productsRepo;
         private readonly IMapper _mapper;
+
         public CartsService(ICartsRepo repo, IProductsRepo productsRepo, IMapper mapper)
         {
             _repo = repo;
@@ -50,8 +51,9 @@ namespace WebApplication.Services
             var product = await _productsRepo.GetById(id);
             searchedCart.ProductIds.Add(id);
             searchedCart.TotalPrice += product.Price;
-            await _repo.Update(id, searchedCart);
+            await _repo.Update(searchedCart.Id, searchedCart);
         }
+
         public void RemoveMovie(Cart cart) => _repo.Remove(cart);
 
         public void RemoveMovieById(string id) => _repo.Remove(id);
